@@ -1,0 +1,226 @@
+body{
+    margin: 0px;
+}
+#header {
+    background: linear-gradient(#2C87B1,#49A4C7); 
+    height:700px;
+    width: 100%;
+}
+#logo{
+}
+#lgname{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    font-family:sans-serif;
+    position: relative;
+    height: 26px;
+    left: 100px;
+    top: 42px;
+}
+p{
+    color: white;
+    position: relative;
+    font-size: 80px;
+    top: 140px;
+    left: 100px;
+}
+#bar {
+    left: 102px;
+    top: 50px;
+    height: 5px;
+    width: 40px;
+    position: relative;
+    background-color: white;
+}
+#bar2{
+    left: 102px;
+    top: 320px;
+    height: 5px;
+    width: 40px;
+    position: relative;
+    background-color: #2C87B1;
+}
+#sub{
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 45px;
+    color: aliceblue;
+}
+#sub2{
+    position: relative;
+    font-size: 25px;
+    top: 50px;
+    color: skyblue;
+}
+#about{
+    height: 641px;
+    width: 100%;
+}
+#abt{
+   position: relative;
+    top: 350px;
+    left: 100px;
+    
+}
+.main-content{
+    background-color: lightgrey;
+    filter: blur(2);
+    padding: 10%;
+    flex: 1 1 80%;
+    height: 700px;
+}
+.portfolio {
+  display: grid;
+  grid-template-rows:100px 100px 100px 100px 100px 100px;    
+  grid-template-columns:20% 20% 20% 20% 20%;
+  grid-gap: 5px;
+}
+.portfolio-item {
+    background-color: aqua;
+    color:black;
+    font-weight: $font-bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+        
+}
+.medium {
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.large {
+    grid-row: span 3;
+    grid-column: span 3;
+}
+
+.small {
+        grid-row: span 1;
+    grid-column: span 1;
+}
+
+.tall {
+        grid-row: span 3;
+        grid-column: span 2;
+}
+
+.wide {
+        grid-row: span 2;
+        grid-column: span 3;  
+}
+.one {
+     background-image: url(one.jpg);
+     background-size: cover;
+     background-color: gray;
+     background-blend-mode: multiply;
+     background-position: top left;
+     transition: .5s ease-in-out;
+    
+}
+.one:hover{
+     background-image: url(one.jpg);
+     background-size: cover;
+     background-position: center;
+    z-index: 5;
+     -webkit-transform: scale(1.1);
+    box-shadow: 0px 0px 150px #000000;
+}
+.two {
+    background-image: url(two.jpg);
+    background-size: cover;
+     background-color: gray;
+     background-blend-mode: multiply;
+     background-position: top left;
+          transition: .5s ease-in-out;
+
+}
+.two:hover{
+   background-size: cover;
+     background-position: center;
+   
+     z-index: 5;
+     -webkit-transform: scale(1.1);
+    box-shadow: 0px 0px 150px #000000;
+}
+
+.three {
+     background-image: url(three.jpg);
+    background-size: cover;
+     background-color: gray;
+     background-blend-mode: multiply;
+background-position: top left;
+         transition: .5s ease-in-out;
+
+}
+.three:hover{
+   background-size: cover;
+     background-position: center;
+   
+     z-index: 5;
+     -webkit-transform: scale(1.1);
+    box-shadow: 0px 0px 150px #000000;
+}
+.four {
+     background-image: url(four.jpg);
+    background-size: cover;
+     background-color: gray;
+     background-blend-mode: multiply;
+background-position: top left;
+     transition: .5s ease-in-out;
+
+}
+.four:hover{
+   background-size: cover;
+     background-position: center;
+   
+     z-index: 5;
+     -webkit-transform: scale(1.1);
+    box-shadow: 0px 0px 150px #000000;
+}
+.five {
+     background-image: url(five.jpg);
+    background-size: cover;
+     background-color: gray;
+     background-blend-mode: multiply;
+background-position: top left;
+     transition: .5s ease-in-out;
+
+}
+.five:hover{
+   background-size: cover;
+     background-position: center;
+     z-index: 5;
+     -webkit-transform: scale(1.1);
+    box-shadow: 0px 0px 150px #000000;
+}
+.six {
+     background-image: url(six.jpg);
+    background-size: cover;
+     background-color: gray;
+     background-blend-mode: multiply;
+background-position: top left;
+          transition: .5s ease-in-out;
+
+}
+.six:hover{
+   background-size: cover;
+     background-position: center;
+     z-index: 5;
+     -webkit-transform: scale(1.1);
+    box-shadow: 0px 0px 150px #000000;
+}
+a{
+    font-size: 50px;
+    border: 0px;
+    font-family: sans-serif;
+    color: whitesmoke;
+    filter: blur(15px);
+    transition: .2s easy-in-out;
+    text-decoration:none;
+}
+a:hover{
+    filter: none;
+    transform:translateX(5);
+}
